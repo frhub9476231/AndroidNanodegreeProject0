@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Project0"
+    android:background="#ffdfeaf1">
+
+    <TextView android:text="@string/mg_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mmm"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/button"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="#F08C35"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton1Action" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/button2"
+        android:background="#F08C35"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton2Action" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton3Action" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/button4"
+        android:background="#F08C35"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton4Action" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bacon_reader"
+        android:id="@+id/button5"
+        android:background="#F08C35"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton5Action" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_my_own_app"
+        android:id="@+id/button6"
+        android:background="#DD2C00"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:textColor="#ffffff"
+        android:onClick="clickButton6Action" />
+
+</RelativeLayout>
