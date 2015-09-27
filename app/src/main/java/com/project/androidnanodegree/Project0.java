@@ -55,33 +55,29 @@ public class Project0 extends ActionBarActivity {
         }
     }
 
-    public void clickButton1Action(View view) {
-        CharSequence text = "This button will launch Spotify Streamer";
+    public void clickButtonAction(View view) {
+        CharSequence text = null;
+        switch (view.getId()) {
+            case R.id.spotifyButton:
+                text = "This button will launch Spotify Streamer";
+                break;
+            case R.id.scoresButton:
+                text = "This button will launch Scores App";
+                break;
+            case R.id.libraryButton:
+                text = "This button will launch Library App";
+                break;
+            case R.id.buildBiggerButton:
+                text = "This button will launch Build It Bigger App";
+                break;
+            case R.id.baconButton:
+                text = "This button will launch Bacon Reader app";
+                break;
+            case R.id.capstoneButton:
+                text = "This button will launch Capstone App";
+                break;
+        }
         showToast(text);
     }
 
-    public void clickButton2Action(View view) {
-        CharSequence text = "This button will launch Scores App";
-        showToast(text);
-    }
-
-    public void clickButton3Action(View view) {
-        CharSequence text = "This button will launch Library App";
-        showToast(text);
-    }
-
-    public void clickButton4Action(View view) {
-        CharSequence text = "This button will launch Build It Bigger App";
-        showToast(text);
-    }
-
-    public void clickButton5Action(View view) {
-        CharSequence text = "This button will launch Bacon Reader app";
-        showToast(text);
-    }
-
-    public void clickButton6Action(View view) {
-        CharSequence text = "This button will launch Capstone App";
-        showToast(text);
-    }
 }
